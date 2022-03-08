@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#countdown": {
+    "children": [
+      "flex-layout.col#countdown"
+    ],
+    "props": {
+      "blockClass": "countdown"
+    }
+  },
+  "flex-layout.col#countdown": {
+    "children": [
+      "countdown"
+    ]
+  }
+}
